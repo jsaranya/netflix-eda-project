@@ -1,0 +1,57 @@
+Microsoft Windows [Version 10.0.26200.9168]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\USER>git init
+Reinitialized existing Git repository in C:/Users/USER/.git/
+
+C:\Users\USER>cd
+C:\Users\USER
+
+C:\Users\USER>cd
+C:\Users\USER
+
+C:\Users\USER>cd "C:\Users\USER\OneDrive\Desktop\Netflix project"
+
+C:\Users\USER\OneDrive\Desktop\Netflix project>git add  netflix_eda_starter.py
+
+C:\Users\USER\OneDrive\Desktop\Netflix project>git commit -m "Add Netflix EDA script"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'USER@DESKTOP-1UOVKB6.(none)')
+
+C:\Users\USER\OneDrive\Desktop\Netflix project> git config --global user.email "jsharanya@yahoo.com"
+
+C:\Users\USER\OneDrive\Desktop\Netflix project>git config --global user.name "Saranya Jothi"
+
+C:\Users\USER\OneDrive\Desktop\Netflix project>git commit -m "Add Netflix EDA script"
+[master (root-commit) b0b5158] Add Netflix EDA script
+ 1 file changed, 115 insertions(+)
+ create mode 100644 OneDrive/Desktop/Netflix project/netflix_eda_starter.py
+
+C:\Users\USER\OneDrive\Desktop\Netflix project>git remote add origin https://github.com/jsaranya/netflix-eda-project.git
+
+C:\Users\USER\OneDrive\Desktop\Netflix project>git branch -M main
+
+C:\Users\USER\OneDrive\Desktop\Netflix project>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 1.62 KiB | 553.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/jsaranya/netflix-eda-project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\USER\OneDrive\Desktop\Netflix project>
